@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import ReactPlayer from 'react-player';
 
 export default function Home() {
+  console.log('location.origin', location.origin);
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <video id='myVideo' width='500' height='500' controls>
